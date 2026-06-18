@@ -306,7 +306,7 @@ export default function App() {
                     {language === 'ar' ? 'اكتشفي تشكيلاتنا الموسمية الفخمة' : 'Découvrez nos confections de saison'}
                   </h3>
                   <p className="text-xs text-brand-beige-400 uppercase tracking-widest mt-1.5 font-semibold">
-                    {language === 'ar' ? 'تفصيلات نادرة مصممة بدقة من المقاس 44 إلى 56' : 'Des créations spécifiquement taillées du 44 au 56'}
+                    {language === 'ar' ? 'تفصيلات نادرة مصممة بدقة من المقاس 50 إلى 66' : 'Des créations spécifiquement taillées du 50 au 66'}
                   </p>
                 </div>
 

@@ -37,7 +37,7 @@ export default function ProductCategoryFilter({
     { id: 'hijabs', label: 'Hijabs Premium', countLetter: '🧣' }
   ];
 
-  const sizes: (ProductSize | 'all')[] = ['all', '44', '46', '48', '50', '52', '54', '56'];
+  const sizes: (ProductSize | 'all')[] = ['all', '50', '52', '54', '56', '58', '60', '62', '64', '66'];
 
   const handleCategorySelect = (catId: ProductCategory | 'all') => {
     setFilters(prev => ({ ...prev, category: catId }));

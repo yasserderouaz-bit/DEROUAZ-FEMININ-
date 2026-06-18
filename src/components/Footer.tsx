@@ -59,8 +59,8 @@ export default function Footer({ setActiveTab, onCategoryFilterChange, language 
             
             <p className="text-xs sm:text-sm text-brand-beige-200/80 leading-relaxed font-sans text-right">
               {language === 'ar' 
-                ? 'الدار الفرنسية الأولى المتخصصة في الأزياء المحتشمة والراقية المصممة خصيصاً للنساء المحجبات وصاحبات القامات الفخمة للمقاسات من 44 إلى 56. نحتفي بجمال قوامكِ المتناسق بحياكة فرنسية فريدة.'
-                : "La première maison française de prêt-à-porter modeste entièrement consacrée aux femmes voilées et pudiques taille 44 à 56. Nous célébrons l'abondance de vos courbes avec des finitions d'une noblesse inégalée."
+                ? 'الدار الفرنسية الأولى المتخصصة في الأزياء المحتشمة والراقية المصممة خصيصاً للنساء المحجبات وصاحبات القامات الفخمة للمقاسات من 50 إلى 66. نحتفي بجمال قوامكِ المتناسق بحياكة فرنسية فريدة.'
+                : "La première maison française de prêt-à-porter modeste entièrement consacrée aux femmes voilées et pudiques taille 50 à 66. Nous célébrons l'abondance de vos courbes avec des finitions d'une noblesse inégalée."
               }
             </p>
 

@@ -43,15 +43,17 @@ export default function ProductQuickView({
 
   const images = [product.image, ...product.secondaryImages];
 
-  // Specific chest measurements in cm for sizes 44 to 56
+  // Specific chest measurements in cm for sizes 50 to 66
   const measureGuides: Record<ProductSize, { poitrine: string; hanche: string; longueur: string }> = {
-    '44': { poitrine: '108 - 112 cm', hanche: '116 - 120 cm', longueur: '145 cm' },
-    '46': { poitrine: '113 - 117 cm', hanche: '121 - 125 cm', longueur: '145 cm' },
-    '48': { poitrine: '118 - 122 cm', hanche: '126 - 130 cm', longueur: '145 cm' },
-    '50': { poitrine: '123 - 127 cm', hanche: '131 - 135 cm', longueur: '148 cm' },
-    '52': { poitrine: '128 - 133 cm', hanche: '136 - 141 cm', longueur: '148 cm' },
-    '54': { poitrine: '134 - 139 cm', hanche: '142 - 147 cm', longueur: '148 cm' },
-    '56': { poitrine: '140 - 145 cm', hanche: '148 - 153 cm', longueur: '150 cm' },
+    '50': { poitrine: '123 - 127 cm', hanche: '131 - 135 cm', longueur: '145 cm' },
+    '52': { poitrine: '128 - 133 cm', hanche: '136 - 141 cm', longueur: '145 cm' },
+    '54': { poitrine: '134 - 139 cm', hanche: '142 - 147 cm', longueur: '145 cm' },
+    '56': { poitrine: '140 - 145 cm', hanche: '148 - 153 cm', longueur: '148 cm' },
+    '58': { poitrine: '146 - 151 cm', hanche: '154 - 159 cm', longueur: '148 cm' },
+    '60': { poitrine: '152 - 157 cm', hanche: '160 - 165 cm', longueur: '148 cm' },
+    '62': { poitrine: '158 - 163 cm', hanche: '166 - 171 cm', longueur: '150 cm' },
+    '64': { poitrine: '164 - 169 cm', hanche: '172 - 177 cm', longueur: '150 cm' },
+    '66': { poitrine: '170 - 175 cm', hanche: '178 - 183 cm', longueur: '150 cm' },
   };
 
   return (

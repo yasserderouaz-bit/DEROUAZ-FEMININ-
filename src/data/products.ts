@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
       'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800',
       'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800'
     ],
-    sizes: ['46', '48', '50', '52', '54', '56'],
+    sizes: ['52', '54', '56', '58', '60', '62', '64', '66'],
     description: 'Une superbe robe longue d\'une élégance rare, conçue dans un satin de soie fluide de première qualité. Parfaitement coupée pour sublimer les formes sans mouler, elle offre une retombée royale.',
     descriptionAr: 'فستان طويل غاية في الأناقة والوقار، مصمم من كريب حرير الساتان المنسدل من الطراز الأول. صُمم وقُصَّ بجمالية متناهية ليناسب انحناءات الجسم بكل انسيابية ووقار ملكي دون تجسيد.',
     details: [
@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
     secondaryImages: [
       'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800'
     ],
-    sizes: ['44', '46', '48', '50', '52', '54'],
+    sizes: ['50', '52', '54', '56', '58', '60', '62', '64'],
     description: 'La pièce maîtresse du dressing mastour : l\'Abaya Jasmine. Taillée dans le véritable Crêpe de Médine importé, elle offre une opacité à 100% tout en restant d\'une légèreté et d\'un confort absolu.',
     descriptionAr: 'القطعة الأساسية الفاخرة لكل خزانة ملابس ساترة: عباية ياسمين. مصنوعة من كريب المدينة الأصيل المستورد من تركيا، تمنحك ستراً وتغطية تامة بنسبة 100% مع خفة وراحة ووقار لا يضاهى.',
     details: [
@@ -82,21 +82,21 @@ export const PRODUCTS: Product[] = [
     secondaryImages: [
       'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=800'
     ],
-    sizes: ['44', '46', '48', '50', '52', '54', '56'],
+    sizes: ['50', '52', '54', '56', '58', '60', '62', '64', '66'],
     description: 'Composé d\'une tunique longue asymétrique et d\'un pantalon large assorti (Palazzo), cet ensemble en lin respirant garantit une silhouette fraîche, élégante et parfaitement couvrante durant les beaux jours.',
     descriptionAr: 'طقم متميز يتكون من تونيك طويل غير متماثل مع بنطلون واسع رائع (بالازو). صُنع من الكتان الطبيعي خفيف الوزن لضمان مظهر منعش وأنيق وساتر في الصيف والمناسبات.',
     details: [
       'Composition : Lin premium et viscose tissée rafraîchissante',
       'Tunique : Longueur 115 cm avant / 125 cm arrière (fentes latérales)',
       'Pantalon : Taille entièrement élastiquée ultra-confortable, coupe droite large',
-      'Tailles : Modèle conçu spécialement pour les tailles 44 à 56 avec aisance',
+      'Tailles : Modèle conçu spécialement pour les tailles 50 à 66 avec aisance',
       'Coloris : Disponible en beige lin naturel et rose poudré chaleureux'
     ],
     detailsAr: [
       'التركيبة: كتان طبيعي فاخر مع فيسكوز منسوج ناعم وبارد',
       'التونيك: طول 115 سم من الأمام و125 سم من الخلف مع فتحات جانبية غاية في الأناقة',
       'البنطلون: حزام خصر مرن بالكامل ومريح، وقصة بالازو مستقيمة وواسعة',
-      'المقاسات: تصميم حصري متقن ليوفر حرية وراحة تامة للمقاسات من 44 إلى 56',
+      'المقاسات: تصميم حصري متقن ليوفر حرية وراحة تامة للمقاسات من 50 إلى 66',
       'الألوان: متوفر باللون البيج الرملي والوردي البودري الدافئ'
     ],
     rating: 4.7,
@@ -111,7 +111,7 @@ export const PRODUCTS: Product[] = [
     price: 49.90,
     image: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=800',
     secondaryImages: [],
-    sizes: ['46', '48', '50', '52', '54', '56'],
+    sizes: ['52', '54', '56', '58', '60', '62', '64', '66'],
     description: 'Une coupe évasée cache-misère magistrale pour cette tunique au fini texturé soyeux. Elle s\'associe à merveille avec l\'un de nos hijabs en soie de Médine pour un look chic au quotidien.',
     descriptionAr: 'تونيك رائع بقصة واسعة على شكل حرف A لإخفاء معالم القوام بكل لباقة وجاذبية متميزة من قماش حريري فاخر. يتناسب بكل مثالية مع حجاب كريب المدينة لإطلالة يومية راقية وسهلة.',
     details: [
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
     price: 110.00,
     image: 'https://images.unsplash.com/photo-1612336307429-8a898d10e223?q=80&w=800',
     secondaryImages: [],
-    sizes: ['44', '46', '48', '50', '52', '54'],
+    sizes: ['50', '52', '54', '56', '58', '60', '62', '64'],
     description: 'Le charme intemporel du plissé soleil sur une robe d\'une envergure spectaculaire. Ce modèle cache magnifiquement les formes tout en structurant une démarche gracieuse et majestueuse.',
     descriptionAr: 'سحر الكسرات المتتالية الأخاذ على فستان ذو هيبة ووقار استثنائي. هذا الموديل ينسدل ليواري تفاصيل القوام ويهبك مشية رشيقة تفيض بالثقة والأنوثة الطبيعية.',
     details: [
@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
     originalPrice: 145.00,
     image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800',
     secondaryImages: [],
-    sizes: ['46', '48', '50', '52', '54', '56'],
+    sizes: ['52', '54', '56', '58', '60', '62', '64', '66'],
     description: 'Un ensemble somptueux composé de trois pièces coordonnées : un kimono long de style dubaï, une robe sans manches à col montant, et une ceinture assortie. Le raffinement absolu pour vos réceptions.',
     descriptionAr: 'طقم استثنائي فخم يتكون من ثلاث قطع متناسقة: كيمونو طويل مستوحى من طراز دبي الراقي، فستان داخلي بدون أكمام بياقة مرتفعة دائرية، وحزام خصر متطابق. قمة الفخامة لاستقبالاتك ومناسباتك الخاصة.',
     details: [
@@ -193,7 +193,7 @@ export const PRODUCTS: Product[] = [
     price: 89.00,
     image: 'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?q=80&w=800',
     secondaryImages: [],
-    sizes: ['44', '46', '48', '50', '52', '54'],
+    sizes: ['50', '52', '54', '56', '58', '60', '62', '64'],
     description: 'Composé d\'un pull long plissé texturé et d\'un pantalon ultra extensible, l\'ensemble Sofia se démarque par son relief somptueux et son tombé qui allonge la silhouette de manière spectaculaire.',
     descriptionAr: 'طقم متميز يتألف من كنزة مخملية مكسرة طويلة وبنطلون مرن وواسع للغاية. يتميز طقم صوفيا بلمعانه الفاخر وطلته الساحرة التي تزيد القوام طولاً ووقاراً لا يضاهى.',
     details: [
@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
     price: 15.00,
     image: 'https://images.unsplash.com/photo-1608748010899-18f300247112?q=80&w=800',
     secondaryImages: [],
-    sizes: ['44', '46', '48', '50', '52', '54', '56'],
+    sizes: ['50', '52', '54', '56', '58', '60', '62', '64', '66'],
     description: 'Le compagnon parfait de nos robes et ensembles. En authentique Crêpe de Médine, il se drape facilement, tient en place toute la journée sans épingles constantes et présente un aspect soyeux et mat.',
     descriptionAr: 'الرفيق واللمسة النهائية المتميزة لعباياتنا وفساتيننا اليومية والمناسبات. مصنوع من كريب المدينة التركي الأصيل، ينثني ويتشكل بكل سهولة طوال اليوم دون الحاجة لدبابيس مفرطة بقوام حريري ناعم مطفأ.',
     details: [
@@ -247,7 +247,7 @@ export const PRODUCTS: Product[] = [
     price: 18.00,
     image: 'https://images.unsplash.com/photo-1566207274740-0f8cf6b7d5a5?q=80&w=800',
     secondaryImages: [],
-    sizes: ['44', '46', '48', '50', '52', '54', '56'],
+    sizes: ['50', '52', '54', '56', '58', '60', '62', '64', '66'],
     description: 'Ajoutez une touche texturée et poétique à votre tenue de fête. Ce hijab plissé reflète doucement la lumière chaude et apporte un volume élégant au port de tête.',
     descriptionAr: 'أضيفي لمسة فنية دافئة وشاعرية إلى فستان حفلِك المفضل. هذا الحجاب المكسر ذو الثنيات اللطيفة يعكس الإضاءة الدافئة ويهبك وقاراً لافتاً وجمالاً فخماً.',
     details: [
@@ -282,11 +282,11 @@ export const TESTIMONIALS: Testimonial[] = [
     id: 't2',
     name: 'Samira B.',
     rating: 5,
-    comment: 'J\'ai acheté l\'ensemble Nour en lin de taille 48. C\'est d\'un confort absolu ! Le pantalon ne serre pas le ventre et le haut cache magnifiquement les hanches. On sent que le vêtement a été pensé par des femmes qui comprennent nos besoins.',
-    commentAr: 'اشتريت طقم نور من الكتان بمقاس 48. راحة مطلقة ووفيرة! البنطلون واسع ومريح لا يضغط على البطن، والتونيك الطويل يستر الأرداف بشكل منسدل غاية في الرقي. تشعرين أن الثوب صُمم بأيدي خبيرات يفهمن طبيعة جسم المرأة الممتلئ تماماً.',
+    comment: 'J\'ai acheté l\'ensemble Nour en lin de taille 54. C\'est d\'un confort absolu ! Le pantalon ne serre pas le ventre et le haut cache magnifiquement les hanches. On sent que le vêtement a été pensé par des femmes qui comprennent nos besoins.',
+    commentAr: 'اشتريت طقم نور من الكتان بمقاس 54. راحة مطلقة ووفيرة! البنطلون واسع ومريح لا يضغط على البطن، والتونيك الطويل يستر الأرداف بشكل منسدل غاية في الرقي. تشعرين أن الثوب صُمم بأيدي خبيرات يفهمن طبيعة جسم المرأة الممتلئ تماماً.',
     date: '28 mai 2026',
     dateAr: '28 مايو 2026',
-    sizeBought: '48',
+    sizeBought: '54',
     verified: true
   },
   {

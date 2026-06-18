@@ -58,13 +58,6 @@ export default function Navbar({
 
   return (
     <header id="app-header" className="sticky top-0 z-50 w-full bg-brand-beige-50/95 backdrop-blur-md border-b border-brand-rose-200/40 shadow-xs transition-all duration-300">
-      {/* Top Banner Alert */}
-      <div id="top-announcement" className="bg-brand-rose-500 py-1.5 px-4 text-center text-xs font-medium text-white tracking-widest flex items-center justify-center gap-2">
-        <Sparkles size={13} className="animate-pulse" />
-        {language === 'ar' ? 'شحن مجاني ابتداءً من 89€ - المقاسات من 44 إلى 56' : 'LIVRAISON GRATUITE DÈS 89€ - TAILLES DU 44 AU 56'}
-        <Sparkles size={13} className="animate-pulse" />
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           

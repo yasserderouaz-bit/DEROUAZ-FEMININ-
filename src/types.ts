@@ -5,7 +5,7 @@
 
 export type ProductCategory = 'robes' | 'ensembles' | 'abayas' | 'tuniques' | 'hijabs';
 
-export type ProductSize = '44' | '46' | '48' | '50' | '52' | '54' | '56';
+export type ProductSize = '50' | '52' | '54' | '56' | '58' | '60' | '62' | '64' | '66';
 
 export interface Product {
   id: string;

@@ -16,7 +16,7 @@ export default function AboutUs({ language = 'fr' }: AboutUsProps) {
     {
       icon: <Scissors size={24} className="text-brand-rose-600" />,
       title: "التفصيل الاحترافي",
-      description: "ملابسنا ليست مجرد مقاسات قياسية مكبرة. يستفيد كل موديل من المقاس 44 إلى 56 من نظام تصميم خاص تم اختباره ومراجعته على أجسام حقيقية ليناسب ويبرز روعة الحركة من غير تقييد."
+      description: "ملابسنا ليست مجرد مقاسات قياسية مكبرة. يستفيد كل موديل من المقاس 50 إلى 66 من نظام تصميم خاص تم اختباره ومراجعته على أجسام حقيقية ليناسب ويبرز روعة الحركة من غير تقييد."
     },
     {
       icon: <SwatchBook size={24} className="text-brand-rose-600" />,
@@ -32,7 +32,7 @@ export default function AboutUs({ language = 'fr' }: AboutUsProps) {
     {
       icon: <Scissors size={24} className="text-brand-rose-600" />,
       title: "Le Patronage Sur-Mesure",
-      description: "Nos vêtements ne sont pas de simples tailles standards agrandies. Chaque modèle du 44 au 56 bénéficie d'un patronage spécifique révisé et testé sur des morphologies réelles pour épouser et valoriser le mouvement sans entraver la liberté d'expression."
+      description: "Nos vêtements ne sont pas de simples tailles standards agrandies. Chaque modèle du 50 au 66 bénéficie d'un patronage spécifique révisé et testé sur des morphologies réelles pour épouser et valoriser le mouvement sans entraver la liberté d'expression."
     },
     {
       icon: <SwatchBook size={24} className="text-brand-rose-600" />,
@@ -184,7 +184,7 @@ export default function AboutUs({ language = 'fr' }: AboutUsProps) {
             </span>
           </div>
           <div>
-            <span className="block font-serif text-3xl font-bold text-brand-rose-700">44 au 56</span>
+            <span className="block font-serif text-3xl font-bold text-brand-rose-700">50 au 66</span>
             <span className="block text-xs uppercase tracking-widest font-bold text-brand-beige-900/80 mt-1">
               {language === 'ar' ? 'مقاسات حقيقية دقيقة' : 'Tailles Réelles Complètes'}
             </span>

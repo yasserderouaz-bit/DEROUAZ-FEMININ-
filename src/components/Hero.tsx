@@ -59,11 +59,11 @@ export default function Hero({ onExploreClick, onAboutClick, language = 'fr' }: 
               <p className="max-w-xl mx-auto lg:mx-0 text-base sm:text-lg text-[#8C7474] font-light leading-relaxed font-sans pt-3">
                 {language === 'ar' ? (
                   <>
-                    مجموعتنا الفخمة مصممة حصرياً للمرأة الممتلئة التي ترغب بملابس ساترة تدمج الحشمة مع روعة المظهر. قصات فضفاضة وأقمشة نخب أول تميز انحناءات قامتِك بدلال ووقار ملكي من المقاس <strong className="text-brand-rose-500 font-semibold">44 إلى 56</strong>.
+                    مجموعتنا الفخمة مصممة حصرياً للمرأة الممتلئة التي ترغب بملابس ساترة تدمج الحشمة مع روعة المظهر. قصات فضفاضة وأقمشة نخب أول تميز انحناءات قامتِك بدلال ووقار ملكي من المقاس <strong className="text-brand-rose-500 font-semibold">50 إلى 66</strong>.
                   </>
                 ) : (
                   <>
-                    Une collection exclusive dédiée à la femme voilée moderne. Des coupes amples, de sublimes matières qui célèbrent vos formes avec pudeur, confort et un raffinement souverain du <strong className="text-brand-rose-500 font-semibold">44 au 56</strong>.
+                    Une collection exclusive dédiée à la femme voilée moderne. Des coupes amples, de sublimes matières qui célèbrent vos formes avec pudeur, confort et un raffinement souverain du <strong className="text-brand-rose-500 font-semibold">50 au 66</strong>.
                   </>
                 )}
               </p>
@@ -104,7 +104,7 @@ export default function Hero({ onExploreClick, onAboutClick, language = 'fr' }: 
                   <Award size={14} />
                 </div>
                 <span className="text-xs font-semibold text-brand-beige-900/90 tracking-wide text-left">
-                  {language === 'ar' ? 'مقاسات مدروسة بدقة 44-56' : 'Tailles Spécifiques 44–56'}
+                  {language === 'ar' ? 'مقاسات مدروسة بدقة 50-66' : 'Tailles Spécifiques 50–66'}
                 </span>
               </div>
               <div className="col-span-2 md:col-span-1 flex items-center gap-2.5 justify-center lg:justify-start">

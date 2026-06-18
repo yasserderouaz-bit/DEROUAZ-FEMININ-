@@ -219,7 +219,7 @@ export default function ContactUs({ language = 'fr' }: ContactUsProps) {
                       >
                         {language === 'ar' ? (
                           <>
-                            <option value="taille">نصائح وإرشاد للمقاسات (44-56)</option>
+                            <option value="taille">نصائح وإرشاد للمقاسات (50-66)</option>
                             <option value="commande">متابعة أو شحن طلبية</option>
                             <option value="retour">سياسة الاستبدال أو الاسترجاع</option>
                             <option value="reclamation">خدمة ما بعد البيع</option>
@@ -227,7 +227,7 @@ export default function ContactUs({ language = 'fr' }: ContactUsProps) {
                           </>
                         ) : (
                           <>
-                            <option value="taille">Conseil d'Aide aux Tailles (44-56)</option>
+                            <option value="taille">Conseil d'Aide aux Tailles (50-66)</option>
                             <option value="commande">Suivi ou Expédition de commande</option>
                             <option value="retour">Politique d'Échanges ou Retours</option>
                             <option value="reclamation">Service après-vente</option>
