@@ -1,0 +1,6 @@
+{
+  "name": "DEROUAZ FEMININ",
+  "description": "Plateforme e-commerce raffinée de vêtements prêt-à-porter grande taille pour femmes voilées.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

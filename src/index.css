@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  
+  --color-brand-beige-50: #FDF8F5; /* Soft Peach-Cream Canvas */
+  --color-brand-beige-100: #F2D7D5; /* Muted Rose Beige Border */
+  --color-brand-beige-200: #F2D7D5;
+  --color-brand-beige-300: #E5BEBC;
+  --color-brand-beige-400: #8C7474; /* Warm Bronze Gray Muted Text */
+  --color-brand-beige-900: #4A3B3B; /* Elegant Warm Charcoal Text */
+  
+  --color-brand-rose-50: #FFF9F8;
+  --color-brand-rose-100: #F2D7D5;
+  --color-brand-rose-200: #F2D7D5;
+  --color-brand-rose-300: #E5BEBC;
+  --color-brand-rose-400: #D48D8D; /* Main Brand Rose Link & Focus */
+  --color-brand-rose-500: #D48D8D; /* Main Brand Solid Color */
+  --color-brand-rose-600: #D48D8D; /* CTA / Solid Button state */
+  --color-brand-rose-700: #C27A7A; /* Highlight / Hover state */
+  
+  --color-brand-gold: #D48D8D;
+  --color-brand-brown: #5D4037; /* Contrast Rich Espresso Brown */
+  --color-brand-cream: #F9EBEA; /* Pastel accent block background */
+}
+
+/* Custom smooth transitions and details */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant);
+}
+
+/* Elegant gold/rose focus ring states */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--color-brand-rose-400);
+  box-shadow: 0 0 0 2px var(--color-brand-rose-100);
+}
+
+/* Premium scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-beige-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-rose-200);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-rose-300);
+}
+
